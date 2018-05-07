@@ -1,0 +1,28 @@
+.section{width:710px;min-height:648px;float:right;padding:15px 5px 15px 5px;}
+.section fieldset{border:none;position:relative;top:40px;left:150px;}
+.section legend{font-size:25px;font-style:italic;font-family:"Comic Sans MS" "Sans-Serif";margin:15px;}
+.section label{width:100px;font-size:15px;font-style: bold;display:inline-block;}
+.section input{width:200px;margin-bottom:10px;}
+.section input[type="submit"]{width:200px;height:40px;border:#570000 2px solid;color:#FFFFFF;background-color: #8B0000;}
+.products{position:relative;left:20px;}
+.products li{margin:10px;}
+.device{padding:20px;min-height:600px;}
+#image{float:left;position:relative;left:50px;}
+#image img{margin-bottom:50px;}
+#image h1{font-size:35px;margin-bottom:30px;}
+#image a{text-decoration:none;}
+#image #button{width:200px;border:#570000 3px solid;color:#FFFFFF;background-color: #8B0000;height:50px;}
+#image #button p{font-size: 25px;font-family: 'Droid Serif',serif;color: #FFFFFF;margin: 14px 5px 12px 5px;}
+#specification{float:right;width:570px;height:540px;padding-top:50px;}
+#specification .details li{height:50px;margin:0px 40px 40px 40px;}
+#specification .details label{width:300px;display:inline-block; margin:0px;height:50px;color:#5F5F5F;font-size:25px;font-family:"Arial Black";}
+#specification p{display: inline;font-size:20px;font-family: 'Droid Serif', serif;}
+#specification ul{list-style: none;}
+#main{padding-bottom:10px;}
+.cart{padding:20px;}
+.cart th{height:50px;font-size:35px;font-family: 'Droid Serif',serif;color:#8B0000;width:210px;}
+.cart td p{font-size:27px;font-family:"Courier New";margin-left:auto;margin-right:auto;width:200px;}
+.cart #name p{width:170px;text-align:center;}
+.cart #price p{width:40px;}
+.cart #photo{padding:10px 0px 10px 20px; position:relative; left:40px;}
+.cart #total_price p{font-size:30px;color:green;font-style:bold;height:40px;font-family:"Arial Black";}

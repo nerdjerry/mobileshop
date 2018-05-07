@@ -1,0 +1,69 @@
+    <!-- Sidebar -->
+    <div id="sidebar">
+      <!-- Search -->
+      <div class="box search">
+        <h2>Search by <span></span></h2>
+        <div class="box-content">
+          <form action="thestore.php" method="post">
+            <label>Mobile Name</label>
+            <input type="text" class="field" name="keyword"/>
+            <label>Operating System</label>
+            <select class="field" name="os">
+              <option value="">-- Select Category --</option>
+              <option value="Android">Android</option>
+              <option value="iOS">iOS</option>
+              <option value="Windows">Windows</option>
+            </select>
+            <div class="inline-field">
+              <label>Price</label>
+              <select class="field small-field" name="start_price">
+              	<option value="">--Select one--</option>
+                <option value="5000">5,000INR</option>
+                <option value="10000">10,000INR</option>
+                <option value="15000">15,000INR</option>
+                <option value="20000">20,000INR</option>
+                <option value="30000">30,000INR</option>
+                <option value="40000">40,000INR</option>
+                <option value="50000">50,000INR</option>
+              </select>
+              <label>to:</label>
+              <select class="field small-field" name="end_price">
+              	<option value="">--Select one--</option>
+                <option value="10000">10,000INR</option>
+                <option value="15000">15,000INR</option>
+                <option value="20000">20,000INR</option>
+                <option value="30000">30,000INR</option>
+                <option value="40000">40,000INR</option>
+                <option value="50000">50,000INR</option>
+                <option value="60000">60,000INR</option>
+              </select>
+            </div>
+            <input type="submit" class="search-submit" value="Search" />
+               <p> <a href="thestore.php" class="bul">All Devices</a><br />
+              <a href="#" class="bul">Contact Customer Support</a> </p>
+          </form>
+        </div>
+      </div>
+      <!-- End Search -->
+      <!-- Categories -->
+      <div class="box categories">
+        <h2>Brand<span></span></h2>
+        <div class="box-content">
+          <ul>
+            <li><a href="thestore.php?brand=apple">Apple</a></li>
+            <li><a href="thestore.php?brand=motorola">Motorola</a></li>
+            <li><a href="thestore.php?brand=samsung">Samsung</a></li>
+            <li><a href="thestore.php?brand=htc">HTC</a></li>
+            <li><a href="thestore.php?brand=lg">LG</a></li>
+            <li><a href="thestore.php?brand=sony">Sony</a></li>
+            <li><a href="thestore.php?brand=blackberry">Blackberry</a></li>
+            <li class="last"><a href="#">Micromax</a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- End Categories -->
+    </div>
+    <!-- End Sidebar -->
+    <div class="cl">&nbsp;</div>
+  </div>
+  <!-- End Main -->
